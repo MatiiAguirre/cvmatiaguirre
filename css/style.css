@@ -8,6 +8,12 @@
     box-sizing: border-box;
 }
 
+.cv1 {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 45px;
+
+}
+
 .mifoto {
     margin-top: 75px;
     display: flex;
@@ -19,11 +25,12 @@
     position: relative;
     
     
+    
 }
 .mifotointerna {
     width: 20%;
     bottom: 45px;
-    border: double 4px rgb(53, 53, 22);
+    border: solid 4px rgba(0, 0, 0, 0.596);
     position: relative; 
     left: 0%;
     right: 0%;
@@ -34,6 +41,7 @@
     align-content: center;
     justify-items: center;
     justify-content: center;
+    
 
 }
 
@@ -55,7 +63,8 @@
 
 
 h2 {
-    
+    font-family: 'Work Sans', sans-serif;
+    font-size: 30px;
     background-color: rgb(201, 201, 212);;
     color: rgb(33, 101 , 189);
     /* text-align: center;
@@ -69,6 +78,7 @@ h2 {
     align-content: center;
     justify-items: center;
     justify-content: center;
+    
 
 }
 
@@ -81,6 +91,12 @@ li {
     align-content: center;
     justify-items: center;
     justify-content: center;
+    justify-self: center;
+    font-family: 'Inconsolata', monospace;
+
+    
+    
+    
     
 }
 
@@ -139,7 +155,7 @@ li {
 footer{
     position: relative;
     width: 100%; 
-    top: 150px;
+    top: 100px;
     bottom: 0%;
     left: 0%;
     right: 0%;
@@ -147,6 +163,8 @@ footer{
     font-family: "open sans-serif";
     padding-top: 40px;
     color: rgb(0, 0, 0);
+    background: rgba(204, 203, 203, 0.226);
+    
 
     
 }
@@ -166,9 +184,10 @@ footer{
     /* text-transform:capitalize; */
     line-height: 15px;
     
-   /*  align-items: center;
+    align-items: center;
     justify-items: center;
-    justify-content: center; */
+    justify-content: center;
+    
 
 }
 
@@ -185,6 +204,7 @@ footer{
     align-items: center;
     justify-items: center;
     margin: 1rem 0 3rem 0;
+    
 }
 
 .social li {
@@ -237,6 +257,7 @@ footer{
     justify-content: center;
     flex-direction: column;
     text-align: center;
+    
    
 }
 
