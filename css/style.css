@@ -16,16 +16,25 @@
     align-content: center;
     justify-items: center;
     justify-content: center;
+    position: relative;
+    
     
 }
 .mifotointerna {
-    width: 15%;
+    width: 25%;
     bottom: 45px;
     border: double 4px rgb(53, 53, 22);
     position: relative; 
     left: 0%;
     right: 0%;
     height: auto;
+    display: flex;
+    flex-direction: center;
+    align-items: center;
+    align-content: center;
+    justify-items: center;
+    justify-content: center;
+    
 }
 
 .cv {
